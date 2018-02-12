@@ -205,7 +205,7 @@ h3 {
     margin-top: 2em;
 }
 .thumbnail {
-    width: 550px;
+    /* width: 550px; */
     background-position: center;
     background-size: cover;
 }
