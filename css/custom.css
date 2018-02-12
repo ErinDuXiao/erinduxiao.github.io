@@ -205,7 +205,7 @@ h3 {
     margin-top: 2em;
 }
 .thumbnail {
-    /* width: 550px; */
+    width: 100%;
     background-position: center;
     background-size: cover;
 }
@@ -227,4 +227,9 @@ h3 {
 }
 .thumbnail.ggj2018 {
     background-image: url("../images/works/ggj2018/TITLE.jpg");
+}
+@media (max-width:767px) {
+    .thumbnail-container {
+        width: 100%;
+    }
 }
