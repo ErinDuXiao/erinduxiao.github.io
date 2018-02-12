@@ -1,0 +1,230 @@
+/*
+
+Custom css for Sigma Template
+
+http://www.templatemo.com/tm-479-sigma
+
+*/
+h2 {
+    font-size: x-large;
+}
+h3 {
+    font-size: 1.3em;
+    /* font-weight: bolder; */
+}
+#work, #about, #contact {
+    padding-top: 100px;
+}
+#top {
+    padding-top: 20px;
+    background-color: #FFF;
+}
+
+/* #work {
+    padding-top: 120px;
+} */
+#top .row {
+    display: flex;
+}
+#top .sigma-hr {
+    margin-bottom: 0 !important;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.site-title, .main-menu {
+    margin: 0;
+}
+.site-title h1 {
+    margin: 0;
+    /* padding-top: 1.2em; */
+}
+.site-title h2 {
+    margin: 0;
+    /* padding-top: 1.2em; */
+}
+.navbar-nav .nav-item+.nav-item.social-link {
+    margin-left: 0;
+}
+.thumbnail-container {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+}
+.thumbnail-container:hover {
+    position: relative;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+    transform: scale(1.05,1.05);
+    z-index: 1000;
+}
+.gallery-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: inherit;
+    z-index: 1001;
+}
+.gallery-overlay span {
+    display: none;
+}
+.gallery-overlay:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+	transition: 0.3s;
+}
+.gallery-overlay:hover span {
+    display: block;
+    font-size: xx-large;
+    font-family: 'Roboto Slab', serif;
+    color: #FFF;
+}
+.gallery-overlay span.sub {
+    font-size: large;
+}
+.copyright {
+    text-align: center;
+}
+.modal-backdrop {
+    background-color: #ffffff;
+}
+#myModal .modal-dialog {
+    width: 100%;
+}
+#about .name {
+    font-size: xx-large;
+}
+#about .skill {
+}
+.highlight {
+    background: linear-gradient(transparent 70%, #66FFCC 70%);
+}
+.highlight.yellow {
+    background: linear-gradient(transparent 70%, #FFFF66 70%);
+}
+.sigma-section-header.section-header-pic {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100px;
+    background-image: url("../images/background.png");
+}
+.sigma-section-header.section-header {
+    background-image: none;
+}
+.work-container {
+    /* display: flex; */
+}
+.thumbnail-container .sigmapad {
+    height: 300px;
+}
+.work-detail header h2 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.work-detail header .description {
+    padding: 0;
+    font-size: 0.9em;
+    color: #888;
+}
+.work-detail .responsibilities {
+    margin-top: 2em;
+}
+.sigma-section-header {
+    height: 430px;
+    background-position: center;
+}
+.sigma-section-header.snc {
+    background-image: url("../images/works/snc/title.png");
+}
+.sigma-section-header.snc-heatmap {
+    background-image: url("../images/works/snc-heatmap/capture.png");
+}
+.sigma-section-header.warehouse {
+    background-image: url("../images/works/warehouse/warehouse.png");
+}
+.sigma-section-header.battle-ninja {
+    background-position: top;
+    background-image: url("../images/works/battle-ninja/BattleNinjaTop.png");
+}
+.sigma-section-header.ggj2018 {
+    background-position: top;
+    background-image: url("../images/works/ggj2018/TITLE.jpg");
+}
+.sigma-section-header.minesweeper {
+    background-position: bottom;
+    background-image: url("../images/works/minesweeper/MineSweeper.png");
+}
+.project-overview-img.snc-heatmap-db {
+    width: 1400px;
+    height: 250px;
+    background-position: left;
+    background-image: url("../images/works/snc-heatmap/db.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.project-overview-img.snc-sq {
+    height: 330px;
+    background-position: center;
+    background-image: url("../images/works/snc/sqdiagram.png");
+    background-size: cover;
+}
+.project-overview-img.battle-ninja {
+    height: 330px;
+    background-position: center;
+    background-image: url("../images/works/battle-ninja/gameplay.png");
+    background-size: cover;
+}
+.project-overview-img.minesweeper {
+    height: 250px;
+    background-position: top;
+    background-image: url("../images/works/minesweeper/MineSweeper.png");
+    background-size: cover;
+}
+.project-overview-img.snc {
+    height: 330px;
+    background-position: center;
+    background-image: url("../images/works/snc/characterSelection2.jpg");
+    background-size: cover;
+}
+.logo-link:hover {
+    text-decoration: none;
+}
+.video iframe {
+    width: 100%;
+    height: 315px;
+}
+.work-detail-section {
+    margin-top: 2em;
+}
+.thumbnail {
+    width: 550px;
+    background-position: center;
+    background-size: cover;
+}
+.thumbnail.snc {
+    background-image: url("../images/works/snc/characterSelection2.jpg");
+}
+.thumbnail.snc-heatmap {
+    background-image: url("../images/works/snc-heatmap/capture.png");
+}
+.thumbnail.battle-ninja {
+    background-image: url("../images/works/battle-ninja/gameplay.png");
+}
+.thumbnail.minesweeper {
+    background-position: top;
+    background-image: url("../images/works/minesweeper/MineSweeper.png");
+}
+.thumbnail.warehouse {
+    background-image: url("../images/works/warehouse/warehouse.png");
+}
+.thumbnail.ggj2018 {
+    background-image: url("../images/works/ggj2018/TITLE.jpg");
+}
