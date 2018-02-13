@@ -10,7 +10,7 @@
 class App {
 
     constructor() {
-        setUpHandlers();
+        this.setUpHandlers();
 	}
 
     run() {
@@ -18,7 +18,19 @@ class App {
     }
 
     setUpHandlers() {
+        $(".work-filter-combo-box").on("change", (e) => {
+            let selectedGenre = $(e.target).children("option:selected").val();
+            $(".thumbnail-container").each((index, element) => {
+                let genre = $(element).attr("data-genre");
 
+                if(selectedGenre == "all" || (genre && genre.match(selectedGenre))){
+                    $(element).show(420);
+                } else {
+                    $(element).hide(420);
+                }
+            });
+
+        });
     }
 
 }

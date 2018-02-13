@@ -122,6 +122,14 @@ h3 {
 .work-container {
     /* display: flex; */
 }
+.work-filter-container {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+.work-filter-combo-box {
+    border: none;
+    cursor: pointer;
+}
 .thumbnail-container .sigmapad {
     height: 300px;
 }
