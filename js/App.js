@@ -24,9 +24,9 @@ class App {
                 let genre = $(element).attr("data-genre");
 
                 if(selectedGenre == "all" || (genre && genre.match(selectedGenre))){
-                    $(element).show(420);
+                    $(element).show(500);
                 } else {
-                    $(element).hide(420);
+                    $(element).hide(500);
                 }
             });
 
