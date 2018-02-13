@@ -128,6 +128,7 @@ h3 {
 }
 .work-filter-combo-box {
     border: none;
+    -webkit-appearance:none;
     cursor: pointer;
 }
 .thumbnail-container .sigmapad {
