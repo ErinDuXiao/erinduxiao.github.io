@@ -168,6 +168,10 @@ h3 {
     background-position: top;
     background-image: url("../images/works/ggj2018/TITLE.jpg");
 }
+.sigma-section-header.sorting-visualization {
+    background-position: center;
+    background-image: url("../images/works/sorting-visualization/sorting-wide.png");
+}
 .sigma-section-header.minesweeper {
     background-position: bottom;
     background-image: url("../images/works/minesweeper/MineSweeper.png");
@@ -237,6 +241,10 @@ h3 {
 }
 .thumbnail.ggj2018 {
     background-image: url("../images/works/ggj2018/TITLE.jpg");
+}
+.thumbnail.sorting-visualization {
+    background-position: bottom;
+    background-image: url("../images/works/sorting-visualization/sorting-small-3.png");
 }
 @media (max-width:767px) {
     .thumbnail-container {
